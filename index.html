@@ -13,7 +13,9 @@
    </head>
    <body class="bg-gray-100 font-sans">
       <!-- HEADER -->
-      <header class="flex justify-between items-center py-5 px-40 m-auto">
+      <header
+         class="flex justify-between space-x-2 items-center py-5 px-4 sm:px-12 md:px-16 lg:px-32 xl:px-40 m-auto"
+      >
          <div class="w-12">
             <img
                src="img/3909296351610059267.svg"
@@ -23,20 +25,32 @@
          </div>
 
          <nav>
-            <ul class="flex space-x-10 text-gray-500 font-bold">
-               <li class="text-indigo-500 cursor-pointer">Home</li>
-               <li class="cursor-pointer">Features</li>
-               <li class="cursor-pointer">About Us</li>
+            <ul class="flex space-x-5 md:space-x-10 text-gray-500 font-bold">
+               <li
+                  class="text-indigo-500 cursor-pointer hover:text-indigo-500 transition ease"
+               >
+                  Home
+               </li>
+               <li class="cursor-pointer hover:text-indigo-500 transition ease">
+                  Features
+               </li>
+               <li class="cursor-pointer hover:text-indigo-500 transition ease">
+                  About Us
+               </li>
             </ul>
          </nav>
 
-         <button class="bg-indigo-600 py-2 px-4 rounded text-white text-sm">
+         <button
+            class="bg-indigo-600 hover:bg-indigo-400 py-2 px-4 rounded text-white text-sm"
+         >
             Join Now
          </button>
       </header>
 
       <!-- MAIN CONTENT -->
-      <main class="py-24 pb-40 px-40 m-auto flex space-x-8 items-center">
+      <main
+         class="py-24 pb-40 px-4 sm:px-12 md:px-16 lg:px-32 xl:px-40 m-auto flex flex-col flex-col-reverse gap-16 sm:flex-row space-x-8 items-center"
+      >
          <div class="flex-1">
             <p class="text-indigo-500 text-xs spacing-4">HOW CRYPTOCURRENCY</p>
 
@@ -69,9 +83,12 @@
       </main>
 
       <!-- FOOTER -->
-      <footer class="py-16 px-40 m-auto bg-gray-900 flex space-x-32">
-         <div class="">
-            <div class="mb-6">
+      <footer
+         class="py-16 px-4 sm:px-12 md:px-16 lg:px-32 xl:px-40 bg-gray-900 flex flex-col gap-16 sm:flex-row"
+      >
+         <div class="flex-1">
+            <div class="mb-6 flex space-x-4 items-center">
+               <img src="img/data.png" alt="Icons" class="w-8" />
                <h3 class="text-white text-xl">Organized Data</h3>
             </div>
             <p class="text-gray-500 text-sm">
@@ -80,8 +97,9 @@
                It Will.
             </p>
          </div>
-         <div>
-            <div class="mb-6">
+         <div class="flex-1">
+            <div class="mb-6 flex space-x-4 items-center">
+               <img src="img/bitcoin-mining-64.png" alt="Icons" class="w-8" />
                <h3 class="text-white text-xl">Trusted Security</h3>
             </div>
             <p class="text-gray-500 text-sm">
@@ -89,8 +107,9 @@
                It Is Incredibly Difficult.
             </p>
          </div>
-         <div>
-            <div class="mb-6">
+         <div class="flex-1">
+            <div class="mb-6 flex space-x-4 items-center">
+               <img src="img/bitcoin.png" alt="Icons" class="w-8" />
                <h3 class="text-white text-xl">Best Trading Platform</h3>
             </div>
             <p class="text-gray-500 text-sm">
